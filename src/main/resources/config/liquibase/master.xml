@@ -5,6 +5,17 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
 
     <include file="classpath:config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20161215181047_added_entity_Player.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20161215181048_added_entity_Team.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20161215181049_added_entity_City.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20161215181050_added_entity_UserPlayerFavorite.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20161215181051_added_entity_Game.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20161215181052_added_entity_GameUserRating.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="classpath:config/liquibase/changelog/20161215181047_added_entity_constraints_Player.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20161215181048_added_entity_constraints_Team.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20161215181050_added_entity_constraints_UserPlayerFavorite.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20161215181051_added_entity_constraints_Game.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20161215181052_added_entity_constraints_GameUserRating.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
